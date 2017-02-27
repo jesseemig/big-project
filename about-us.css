@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "type";
+    src: url('type.ttf');  
+}
+
+@font-face {
+    font-family: "western";
+    src: url("western.ttf")
+}
+
+body { 
+  background: url(farm.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+@media only screen and (min-width: 768px) {
+.top {
+    display: block;
+    text-align: center;
+    }
+}
+
+.rockwell {
+    font-family: type;
+    font-size: 300%;
+    color: black;
+    text-align: center;
+    letter-spacing: 10px;
+    text-shadow:  1px 1px #241100;
+    margin-top: 2%;
+    display: block;
+    
+}
+
+@media only screen and (min-width: 768px) {
+.rockwell {
+    font-family: type;
+    font-size: 800%;
+    color: black;
+    text-align: center;
+    letter-spacing: 10px;
+    text-shadow:  1px 1px #241100;
+    margin-top: 2%;
+    display: block;
+    
+}
+}
+
+
+@media only screen and (min-width: 768px) {
+.motto {
+    font-size: 150%;
+    color: black;
+    text-align: center;
+    letter-spacing: 7px;
+    text-shadow:  1px 1px #241100;
+    font-family: western;
+    display: block;
+    
+} 
+}
+
+
+.nav {
+    display: block;
+    margin: 0%;
+    margin-top: 10%
+}
+
+a {
+    display: inline;
+    color: aliceblue;
+    text-shadow: 2px 2px black;
+    font-size: 170%;
+}
+
+@media only screen and (min-width: 768px) {
+    a {
+        display: inline;
+        color: aliceblue;
+        text-shadow: 2px 2px black;
+        font-size: 270%;
+    }
+}
+
+
+.para {
+    margin-left: 9%;
+    display: block;
+    background-color: aliceblue;
+    margin-top: 8%;
+    text-align: center;
+    font-family: type;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-size: 120%;
+    
+}
+
+
+@media only screen and (min-width: 768px) {
+.para {
+    margin-left: 25%;
+    display: block;
+    background-color: aliceblue;
+    margin-top: 8%;
+    text-align: center;
+    font-family: type;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-size: 120%;
+    
+    }
+}
+
+.issac {
+    display: inline-block;
+    ;
+    margin-top: 7.5%;
+    text-align: center;
+    color: aliceblue;
+}
+

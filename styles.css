@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "type";
+    src: url('type.ttf');  
+}
+
+@font-face {
+    font-family: "western";
+    src: url("western.ttf")
+}
+
+body { 
+  background: url(barn.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+.rockwell {
+    font-family: type;
+    font-size: 350%;
+    color: black;
+    text-align: center;
+    letter-spacing: 10px;
+    text-shadow:  1px 1px #241100;
+    
+}
+
+@media only screen and (min-width: 768px) {
+.rockwell {
+    font-family: type;
+    font-size: 800%;
+    color: black;
+    text-align: center;
+    letter-spacing: 10px;
+    text-shadow:  1px 1px #241100;
+    margin-top: 2%;
+    
+}
+}
+
+.motto {
+    font-size: 150%;
+    color: black;
+    text-align: center;
+    letter-spacing: 7px;
+    text-shadow:  1px 1px #241100;
+    font-family: western;
+    
+} 
+
+
+
+.nav {
+    display: block;
+    list-style-type: none;
+    font-size: 70%;
+    text-shadow: 3px 3px black;
+    text-align: center;
+}
+
+
+
+a {
+    display: block;
+    color: snow;
+    text-decoration: none;
+    font-size: 500%;
+}
+
+
+@media only screen and (min-width: 768px) {
+a {
+    display: block;
+    color: snow;
+    text-decoration: none;
+    font-size: 500%;
+    margin-top: 20%;
+   
+}
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    height: 300px;
+    margin-left: 165%;
+    margin-top: 25%;
+    display: inline-block;
+}
+

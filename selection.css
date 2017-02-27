@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "type";
+    src: url('type.ttf');
+}
+
+body { 
+  background: url(wood.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.top {
+    font-family: type;
+    text-align: center;
+    color: #075E7D;
+    margin-top: 3%;
+    display: block;
+}
+
+.selection {
+    font-family: type;
+    font-size: 300%;
+    text-align: center;
+    color: #075E7D;
+    margin-top: 3%;
+    display: block;
+}
+
+@media only screen and (min-width: 768px) {
+    .selection {
+        font-family: type;
+        font-size: 600%;
+        text-align: center;
+        color: #075E7D;
+        margin-top: 3%;
+        display: block;
+    }
+}
+
+.row1 {
+    margin-top: 5%;
+    display: block;
+}
+
+
+@media only screen and (min-width: 768px) {
+.row1 {
+    margin-top: 5%;
+    display: block;
+    }
+}
+
+.row2 {
+    margin-top: 5%;
+    display: block;
+}
+
+
+@media only screen and (min-width: 768px) {
+.row2 {
+    margin-top: 1%;
+    display: block;
+    }
+}
+
+.boot6 {
+    padding-bottom: 18%;
+}
+
+.boot4 {
+    padding-bottom: 4%;
+}
+.nav {
+    display: inline;
+    margin: 0%;
+    margin-top: 5%;
+   
+}
+
+a {
+    padding-bottom: 10%;
+    display: inline;
+    color: aliceblue;
+    text-shadow: 2px 2px black;
+    font-size: 170%;
+}
+
+@media only screen and (min-width: 768px) {
+    a {
+        display: inline;
+        color: aliceblue;
+        text-shadow: 2px 2px black;
+        font-size: 270%;
+    }
+}
